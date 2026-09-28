@@ -31,6 +31,8 @@ em cada roteador.
 
 A tabela abaixo apresenta os números obtidos:
 
+![Table sizes](images/tablesize.png)
+
 # Experimento 2
 
 O segundo experimento foi realizado para avaliar a robustez do protocolo na eventual falha de um link da rede.
