@@ -11,7 +11,11 @@ O laboratório pode ser reproduzido clonando o repositório e alterando o caminh
 
 A topologia usada segue abaixo:
 
+![Table sizes](images/topologia.png)
+
 Suas redes e conexões:
+
+![Table sizes](images/networktable.png)
 
 O objetivo da topologia usada foi simular a conexão entre uma rede doméstica, um ISP e um servidor da Internet.
 
