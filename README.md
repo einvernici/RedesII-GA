@@ -49,9 +49,15 @@ O teste realizado foi um ping utilizando o comando
 
 ````docker exec clab-bird-uni-lab-r1 ping 10.4.5.5````
 
-E, em seguida, derrubando o link R2 - R4 e verificando a quantidade de pacotes perdidos para estimar o tempo da volta da conexão.
+E, em seguida, derrubando o link R2 - R4 com o comando 
+
+````docker exec -it clab-bird-uni-lab-r2 ip link set eth2 down````
+
+e verificando a quantidade de pacotes perdidos para estimar o tempo da volta da conexão.
 
 O gráfico abaixo mostra o número de pacotes seguidos perdidos até que a conexão seja reestabelecida:
 
 ![Table sizes](images/convergeancetime.png)
+
+Como o comando ping envia um pacote por segundo podemos inferir que o tempo aproximado de convergência é o número seguido de pacotes.
 
