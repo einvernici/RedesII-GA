@@ -61,7 +61,7 @@ e verificando a quantidade de pacotes perdidos para estimar o tempo da volta da 
 
 O gráfico abaixo mostra o número de pacotes seguidos perdidos até que a conexão seja reestabelecida:
 
-![Table sizes](images/convergeancetime.png)
+![Table sizes](images/convtime.png)
 
 Como o comando ping envia um pacote por segundo podemos inferir que o tempo aproximado de convergência é o número seguido de pacotes.
 
