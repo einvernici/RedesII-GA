@@ -65,3 +65,16 @@ O gráfico abaixo mostra o número de pacotes seguidos perdidos até que a conex
 
 Como o comando ping envia um pacote por segundo podemos inferir que o tempo aproximado de convergência é o número seguido de pacotes.
 
+# Vídeos
+
+Experimento 2 RIP:
+
+https://drive.google.com/file/d/14jJ5CyLEP4NciN8NY24Diwbt752cCeKL/view?usp=sharing
+
+Experimento 2 OSPF:
+
+https://drive.google.com/file/d/1jPeaozQWHUR5kkXlD090PICDPsOFbK4f/view?usp=drive_link
+
+Experimento 2 BGP:
+
+https://drive.google.com/file/d/15pehRKBMjoRCzYOFgSMGL-3zQWy30YC4/view?usp=drive_link
