@@ -8,13 +8,13 @@ topology:
     r1:
       kind: linux
       binds:
-        - /home/einvernici/bird-uni-lab/current_config/r1.conf:/etc/bird.conf:ro # <--- FIXED INNER PATH
+        - ~/lab/<protocolo>/r1.conf:/etc/bird.conf:ro # <--- FIXED INNER PATH
       exec:
         - ip addr add 10.1.2.1/24 dev eth1
     r2:
       kind: linux
       binds:
-        - /home/einvernici/bird-uni-lab/current_config/r2.conf:/etc/bird.conf:ro # <--- FIXED INNER PATH
+        - ~/lab/<protocolo>/r2.conf:/etc/bird.conf:ro # <--- FIXED INNER PATH
       exec:
         - ip addr add 10.1.2.2/24 dev eth1
         - ip addr add 10.2.4.2/24 dev eth2
@@ -22,14 +22,14 @@ topology:
     r3:
       kind: linux
       binds:
-        - /home/einvernici/bird-uni-lab/current_config/r3.conf:/etc/bird.conf:ro # <--- FIXED INNER PATH
+        - ~/lab/<protocolo>/r3.conf:/etc/bird.conf:ro # <--- FIXED INNER PATH
       exec:
         - ip addr add 10.2.3.3/24 dev eth1
         - ip addr add 10.3.4.3/24 dev eth2
     r4:
       kind: linux
       binds:
-        - /home/einvernici/bird-uni-lab/current_config/r4.conf:/etc/bird.conf:ro # <--- FIXED INNER PATH
+        - ~/lab/<protocolo>/r4.conf:/etc/bird.conf:ro # <--- FIXED INNER PATH
       exec:
         - ip addr add 10.2.4.4/24 dev eth1
         - ip addr add 10.3.4.4/24 dev eth2
@@ -37,7 +37,7 @@ topology:
     r5:
       kind: linux
       binds:
-        - /home/einvernici/bird-uni-lab/current_config/r5.conf:/etc/bird.conf:ro # <--- FIXED INNER PATH
+        - ~/lab/<protocolo>/r5.conf:/etc/bird.conf:ro # <--- FIXED INNER PATH
       exec:
         - ip addr add 10.4.5.5/24 dev eth1
 
