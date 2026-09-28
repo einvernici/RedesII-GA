@@ -29,9 +29,13 @@ O cálculo do tamanho das tabelas veio da quantia de rotas mantidas para cada ro
 
 em cada roteador.
 
-A tabela abaixo apresenta os números obtidos:
+O gráfico abaixo apresenta o tamanho da tabela no cenário 1:
 
 ![Table sizes](images/tablesize.png)
+
+O gráfico abaixo apresenta o tamanho da tabela no cenário 2:
+
+![Table sizes](images/tablesizefail.png)
 
 # Experimento 2
 
@@ -48,4 +52,6 @@ O teste realizado foi um ping utilizando o comando
 E, em seguida, derrubando o link R2 - R4 e verificando a quantidade de pacotes perdidos para estimar o tempo da volta da conexão.
 
 O gráfico abaixo mostra o número de pacotes seguidos perdidos até que a conexão seja reestabelecida:
+
+![Table sizes](images/convergeancetime.png)
 
