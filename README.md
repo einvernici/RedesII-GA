@@ -67,7 +67,7 @@ O gráfico abaixo mostra o número de pacotes seguidos perdidos até que a conex
 
 ![Table sizes](images/convtime.png)
 
-Como o comando ping envia um pacote por segundo podemos inferir que o tempo aproximado de convergência é o número seguido de pacotes.
+Como o comando ping envia um pacote por segundo podemos inferir que o tempo aproximado de convergência é o número seguido de pacotes perdidos.
 
 # Vídeos
 
