@@ -5,7 +5,9 @@ O ambiente usado foi uma máquina virtual com sistema operacional Linux Mint, ve
 
 O laboratório experimental de roteamento foi criado utilizando Containerlab. Cinco containers no total, um container para cada roteador. Os containeres utilizam uma imagem ultra-leve Linux e o software de roteamento BIRD.
 
-O laboratório pode ser reproduzido clonando o repositório e alterando o caminho dos arquivos de configuração do roteador para o protocolo que se deseja usar no arquivo .yml.
+O laboratório pode ser reproduzido clonando o repositório e alterando o caminho dos arquivos de configuração do roteador para o protocolo que se deseja usar no arquivo
+
+trecho ````~/bird/<protocolo>```` no arquivo lab.clab.yml.
 
 # Topologia
 
